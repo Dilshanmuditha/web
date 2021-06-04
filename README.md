@@ -18,7 +18,7 @@ Assignment
   <div class="header-group">
    
     <h1 class="primary-headline typetura">
-      What is a Relationship?
+      What is a partnership?
     </h1>
    
   </div>
