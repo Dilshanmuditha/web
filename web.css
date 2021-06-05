@@ -1,7 +1,30 @@
+ li{
+	float:left;
+}
+ul{
+	list-style-type: none;
+	background-color: blue;
+	overflow: hidden;
+	padding: 0;
+	margin: 0;
+}
+li a{
+  text-decoration: none;
+  padding: 15px 18px; 
+  color: white;
+  display: block;
+
+}
  .logo{
- 	background-color: white;
+ 	background-color: pink;
  	padding: 10px;
- 	margin: 0;
+ 	margin: 0px;
  	text-align: center;
+ 	border-radius: 100px;
+    color: blue;
+}
+.logo1{
+	padding: 10px;
+ 	margin: 0px;
 
 }
