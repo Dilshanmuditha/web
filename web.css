@@ -5,26 +5,26 @@ ul{
 	list-style-type: none;
 	background-color: rgb(9, 9, 94);
 	overflow: hidden;
-	padding: 0;
+	padding: 10;
 	margin: 0;
 }
 li a{
   text-decoration: none;
   padding: 15px 18px; 
-  color: white;
+  color: rgb(211, 219, 215);
   display: block;
 
 }
  .logo{
- 	background-color: #03d7fc;
- 	padding: 10px;
+ 	background-color: dark rgb(126, 27, 44);
+ 	padding: 15px;
  	margin: 0px;
  	text-align: center;
- 	border-radius: 100px;
-    color:#db03fc;
+ 	border-radius: 130px;
+    color: blue;
 }
 .logo1{
-	padding: 10px;
+	padding: 15px;
  	margin: 0px;
 
 }
