@@ -34,7 +34,7 @@ Assignment
 	<title>partnership </title>
 	<div class="header typetura">
   <nav>
-    <div class="logo">partnership for the gols</div>
+    <div class="logo"><u>partnership for the gols</u></div>
     
   </nav>
 
