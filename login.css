@@ -24,9 +24,9 @@ height: 100vh;
 place-items: center;
 }
 .form__title {
-font-weight: 310;
+font-weight: 300;
 margin: 0;
-margin-bottom: 1.35rem;
+margin-bottom: 1.25rem;
 }
 .link {
 color: var(--gray);
