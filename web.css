@@ -16,12 +16,12 @@ li a{
 
 }
  .logo{
- 	background-color: dark rgb(126, 27, 44);
+ 	background-color: #03d7fc;
  	padding: 10px;
  	margin: 0px;
  	text-align: center;
  	border-radius: 100px;
-    color: blue;
+    color:#db03fc;
 }
 .logo1{
 	padding: 10px;
