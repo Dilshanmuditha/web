@@ -2,7 +2,7 @@
 	float:left;
 }
 ul{
-	list-style-type: none;
+	list-style-type: 0;
 	background-color: rgb(9, 9, 94);
 	overflow: hidden;
 	padding: 10;
@@ -21,7 +21,7 @@ li a{
  	margin: 0px;
  	text-align: center;
  	border-radius: 130px;
-    color:#03fcec ;
+    color:blue;
 }
 .logo1{
 	padding: 15px;
