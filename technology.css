@@ -1,9 +1,9 @@
 p { color :black;
     font-family: verdana;
-     font-size: 160;
-     background-color: burlywood;
+     font-size: 30px;
+     background-color: blue;
 	}
-body{ font-size: 25px;
+body{ font-size: 30px;
       color:black;
        background-color: cornflowerblue;
     }
