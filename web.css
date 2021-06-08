@@ -19,6 +19,9 @@ ul{
 	font-size: 300%;
 	padding-top: 80px;
 }
+.top:hover{
+	font-size: 500%;
+}
 li a{
   text-decoration: none;
   padding: 15px 18px; 
