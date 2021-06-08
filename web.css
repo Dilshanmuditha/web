@@ -2,7 +2,7 @@
 	float:left;
 }
 ul{
-	list-style-type: 0;
+	list-style-type: none;
 	background-color: rgb(9, 9, 94);
 	overflow: hidden;
 	padding: 0px;
