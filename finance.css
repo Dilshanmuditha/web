@@ -12,3 +12,8 @@
 .top:hover{
 	font-size: 500%;
 }
+p { color :black;
+    font-family: verdana;
+     font-size: 25px;
+     background-color:white;
+	}
