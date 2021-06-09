@@ -1,0 +1,14 @@
+.top{
+	width: 100%;
+	height: 180px;
+	border: 1px solid red;
+	background-image: url("cover.jfif");
+	background-size: cover;
+	text-align: center;
+	color: white;
+	font-size: 300%;
+	padding-top: 80px;
+}
+.top:hover{
+	font-size: 500%;
+}
