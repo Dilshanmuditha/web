@@ -12,3 +12,11 @@
 .top:hover{
 	font-size: 500%;
 }
+p { color :black;
+    font-family: verdana;
+     font-size: 15px;
+     background-color:white;
+	}
+ul { color :black;
+    font-family: verdana;
+     font-size: 15px;}
