@@ -1,12 +1,25 @@
-li{
-	float:left;
-}
-ul{
-	list-style-type: none;
-	background-color: rgb(9, 9, 94);
+ul{ list-style-type: none;
+	margin: 0;
+	padding: 0;
 	overflow: hidden;
-	padding: 0px;
-	margin: 0px;
+	background-color: #202020;
+}
+li{
+	float: left;
+}
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+li a:hover:not(.active){
+	background-color: white;
+	color: #202020;
+}
+.active{
+	background-color:greenyellow; 
 }
 .top{
 	width: 100%;
