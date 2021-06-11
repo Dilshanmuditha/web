@@ -1,4 +1,4 @@
- ul{ list-style-type: none;
+ul{ list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -35,27 +35,11 @@ li a:hover:not(.active){
 .top:hover{
 	font-size: 500%;
 }
-li a{
-  text-decoration: none;
-  padding: 15px 18px; 
-  color: rgb(211, 219, 215);
-  display: block;
-
-}
- .logo{
- 	background-color: dark rgb(126, 27, 44);
- 	padding: 15px;
- 	margin: 0px;
- 	text-align: center;
- 	border-radius: 130px;
-    color:blue;
-}
-.logo1{
-	padding: 15px;
- 	margin: 0px;
-
-}
 p { color :black;
     font-family: verdana;
-     font-size: 160;
+     font-size: 15px;
+     background-color:white;
 	}
+ul { color :black;
+    font-family: verdana;
+     font-size: 15px;}
