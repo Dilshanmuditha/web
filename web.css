@@ -71,6 +71,7 @@ p { color :black;
 	margin: 10px 0 10px 1%;
 	border: 1px;
     background-size: cover;
+
 }
 
 h5{
@@ -80,6 +81,7 @@ h5{
 	background-color: blue;
     margin: 0;
     color: white;
+    text-decoration: none;
 }
 .col:hover {
 	-webkit-filter:grayscale(200%);
