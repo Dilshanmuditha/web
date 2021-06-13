@@ -1,4 +1,4 @@
- ul{ list-style-type: none;
+ul{ list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
@@ -26,7 +26,7 @@ li a:hover:not(.active){
 	width: 100%;
 	height: 180px;
 	border: 1px;
-	background-image: url("cover.jfif");
+	background-image: url("https://globescan.com/wp-content/uploads/2018/05/rsz_istock-183060490-1024x576.jpg");
 	background-size: cover;
 	text-align: center;
 	color: white;
