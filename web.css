@@ -72,14 +72,7 @@ p { color :black;
 	border: 1px;
     background-size: cover;
 }
-.col2{
-	width: 32%;
-	height: 500px;
-	float: left;
-	margin: 10px 0 10px 1%;
-	border: 1px;
-    background-size: cover;
-}
+
 h5{
 	text-align: center;
 	font-size: 200%;
@@ -90,11 +83,4 @@ h5{
 }
 .col:hover {
 	-webkit-filter:grayscale(200%);
-	-webkit-transform:all 1s ease-in;
-	border: 2px solid blue;
-}
-.col2:hover {
-	-webkit-filter:grayscale(200%);
-	-webkit-transform:all 1s ease-in;
-	border: 2px solid blue;
 }
