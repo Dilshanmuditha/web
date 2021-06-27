@@ -32,3 +32,12 @@ body{
     width: 800px;
     height: 500px;
   }
+  /*css for manual slide navigation*/
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+  }
