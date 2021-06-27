@@ -48,3 +48,10 @@ body{
     cursor: pointer;
     transition: 1s;
   }
+  .manual-btn:not(:last-child){
+    margin-right: 40px;
+  }
+  
+  .manual-btn:hover{
+    background: #40D3DC;
+  }
