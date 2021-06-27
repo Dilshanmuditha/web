@@ -14,3 +14,9 @@ body{
     border-radius: 10px;
     overflow: hidden;
   }
+  
+.slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+  }
