@@ -41,3 +41,10 @@ body{
     display: flex;
     justify-content: center;
   }
+  .manual-btn{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+  }
