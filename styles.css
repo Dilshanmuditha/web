@@ -79,3 +79,13 @@ body{
     justify-content: center;
     margin-top: 460px;
   }
+  navigation-auto div{
+    border: 2px solid #40D3DC;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 1s;
+  }
+  
+  .navigation-auto div:not(:last-child){
+    margin-right: 40px;
+  }
