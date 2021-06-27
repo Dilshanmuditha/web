@@ -70,4 +70,12 @@ body{
   #radio4:checked ~ .first{
     margin-left: -60%;
   }
-  
+  /*css for automatic navigation*/
+
+.navigation-auto{
+    position: absolute;
+    display: flex;
+    width: 800px;
+    justify-content: center;
+    margin-top: 460px;
+  }
