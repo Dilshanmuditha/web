@@ -89,3 +89,18 @@ body{
   .navigation-auto div:not(:last-child){
     margin-right: 40px;
   }
+  #radio1:checked ~ .navigation-auto .auto-btn1{
+    background: #40D3DC;
+  }
+  
+  #radio2:checked ~ .navigation-auto .auto-btn2{
+    background: #40D3DC;
+  }
+  
+  #radio3:checked ~ .navigation-auto .auto-btn3{
+    background: #40D3DC;
+  }
+  
+  #radio4:checked ~ .navigation-auto .auto-btn4{
+    background: #40D3DC;
+  }
