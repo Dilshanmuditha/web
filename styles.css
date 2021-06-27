@@ -7,3 +7,10 @@ body{
     align-items: center;
     background: #23E3C9;
   }
+  
+.slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
