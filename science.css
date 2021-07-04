@@ -1,8 +1,9 @@
 
-ul{ list-style-type: none;
+ul{ 
+  list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #202020;
 }
 li{
@@ -14,10 +15,6 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-}
-li a:hover:not(.active){
-  background-color: white;
-  color: #202020;
 }
 .active{
   background-color:greenyellow; 

@@ -78,7 +78,7 @@ p { color :black;
 	border: 1px;
     background-size: cover;
     border-radius: 50px;
-    overflow: hidden;
+    overflow: none;
 }
 
 h6{
@@ -90,12 +90,10 @@ h6{
     color: white;
    text-decoration-style: none;
 }
-h5 a{
+h6 a{
 	 text-decoration: none;
 }
 .col:hover {
 	-webkit-filter:grayscale(200%);
 }
-@media only screen and (max-width:768px){
 
-}
