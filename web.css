@@ -1,27 +1,27 @@
-ul{ 
+.ad{ 
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: auto;
 	background-color: #202020;
 }
-li{
+.l{
 	float: left;
 }
-li a {
+.l a {
 	display: block;
 	color: white;
 	text-align: center;
 	padding: 14px 16px;
 	text-decoration: none;
 }
-li a:hover:not(.active){
+.l a:hover:not(.active){
 	background-color: white;
 	color: #202020;
 }
 .active{
 	background-color:rgb(60, 10, 139);
-
+    float: left;
 }
 .top{
 	width: 100%;
@@ -80,6 +80,9 @@ p { color :black;
     border-radius: 50px;
     overflow: none;
 }
+.col:hover {
+	-webkit-filter:grayscale(200%);
+}
 
 h6{
 	text-align: center;
@@ -93,7 +96,17 @@ h6{
 h6 a{
 	 text-decoration: none;
 }
-.col:hover {
-	-webkit-filter:grayscale(200%);
+.book1{
+	list-style-type: none;
 }
-
+.book a{
+     color: green;
+list-style-type: none;
+}
+.book1 a{
+	color: green;
+	text-align: center;
+	padding: 10px 0px;
+	overflow:none;
+	background-color: black;
+}
