@@ -19,7 +19,7 @@ li a:hover:not(.active){
 	color: #202020;
 }
 .active{
-	background-color:rgb(60, 10, 139);
+	background-color:#fa2069;
 
 }
 .top{
