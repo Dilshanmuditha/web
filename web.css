@@ -31,14 +31,14 @@
 	background-size: cover;
 	text-align: center;
 	color: white;
-	font-size: 350%;
-	padding-top: 50px;
+	font-size: 300%;
+	padding-top: 80px;
 	
 
 
 }
 .top:hover{
-	font-size: 350%;
+	font-size: 500%;
 	color: rgb(120 45 200);
 }
 li a{
