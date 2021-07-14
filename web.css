@@ -35,12 +35,12 @@
 	font-size: 350%;
 	padding-top: 50px;
 	font-family: "Audiowide", sans-serif;
-
+    text-shadow: 2px 2px 5px blue;
 
 }
 .top:hover{
 	text-shadow: 2px 2px 5px red;
-	color:blue;
+	color:white;
 }
 li a{
   text-decoration: none;
@@ -98,14 +98,16 @@ h6 a{
 	 text-decoration: none;
 }
 .book1{
+	border: 1px solid blue;
 	list-style-type: none;
 text-align: center;
+
 }
 
 .book a{
      color: green;
 list-style-type: none;
-
+background-size: cover;
 }
 .book1 a{
 	background-color: white;
