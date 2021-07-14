@@ -22,6 +22,7 @@
 .active{
 	background-color:#fa2069;
     float: left;
+    display: block;
 }
 .top{
 	width: 100%;
@@ -33,13 +34,13 @@
 	color: white;
 	font-size: 350%;
 	padding-top: 50px;
-	
+	font-family: "Audiowide", sans-serif;
 
 
 }
 .top:hover{
-	font-size: 500%;
-	color:#9191eb;
+	text-shadow: 2px 2px 5px red;
+	color:blue;
 }
 li a{
   text-decoration: none;
@@ -49,7 +50,7 @@ li a{
 
 }
  .logo{
- 	background-color: dark rgb(126, 27, 44);
+ 	background-color:  rgb(126, 27, 44);
  	padding: 15px;
  	margin: 0px;
  	text-align: center;
@@ -98,15 +99,55 @@ h6 a{
 }
 .book1{
 	list-style-type: none;
+text-align: center;
 }
+
 .book a{
      color: green;
 list-style-type: none;
+
 }
 .book1 a{
-	color: green;
-	text-align: center;
-	padding: 10px 0px;
-	overflow:none;
-	background-color: black;
+	background-color: white;
+  color: black;
+  
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+.book1 a:hover{
+	 background-color: blue;
+  color: white;
+}
+.sub{
+	display: none;
+
+}
+
+.menu ul li:hover .sub{
+	display: block;
+	position: absolute;
+	background-color: blue;
+	margin-top: 0px;
+	margin-left: 0px;
+
+}
+
+.menu ul li:hover .sub ul{
+	display: block;
+	padding: 0px;
+	margin: 0px;
+    list-style: none;
+}
+.menu ul li:hover .sub ul li{
+	width: 150px;
+	padding: 5px;
+	border-bottom: 1px;
+	background:transparent;
+	border-radius: 0;
+	text-align: left;
+}
+.menu ul li:hover .sub ul li:last-child{
+        border-bottom:none;
 }
