@@ -153,3 +153,31 @@ background-size: cover;
 .menu ul li:hover .sub ul li:last-child{
         border-bottom:none;
 }
+.log {
+  font-size: 2.5rem;
+  line-height: 1;
+  color: var(--color);
+  font-family: "Job Clarendon", var(--font-headline);
+  text-transform: uppercase;
+  font-weight: 450;
+}
+footer {
+  text-align: center;
+  background-color: hsl(0, 0%, 94%);
+  border-top: 2px solid var(--color);
+  margin-top: 20vh;
+  padding: 2rem 0 20vh;
+}
+footer .links {
+  padding: 0;
+  margin: 2rem auto;
+  justify-content: center;
+}
+footer small {
+  display: block;
+  max-width: var(--max-width);
+  font-size: 0.75rem;
+  line-height: 1.25;
+  margin: 0 auto;
+  padding: 1em 2rem;
+}
