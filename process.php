@@ -1,29 +1,29 @@
 <?php
+
 $host = "localhost";
 $user = "root";
 $password = "";
-$db = "userLogin";
+$db = "userlogin";
 
 $con = mysqli_connect($host, $user, $password, $db);
 
 $Email = $_POST['Email'];
-$Pass = $_POST['Pw'];
+$password= $_POST['password'];
 
 
 $Email = stripcslashes($Email);
-$Pass = stripcslashes($Pass);
-
-
+$password = stripcslashes($password);
 $Email = mysql_real_escape_string($Email);
-$Pass = mysql_real_escape_string($Pass);
+$password = mysql_real_escape_string($password);
 
-$result = mysql_query("select * from users where Email = '$Email' password = 'Pass'")
+$result = mysql_query("select * from details where Email = '$Email' password = '$password'")
                or die("Failed to query database " .mysql_error());
 $row = mysql_fetch_array($result);
-if ($row['Email'] == $Email && $row['Pass'] == $Pass){
+if ($row['Email'] == $Email && $row['password'] == $password){
 	echo "Login success!! welcome" .$row['Email'];
 }
 else{
-	echo "Failedto login!!";
+	echo "Failed to login!!";
 }
+$con->close();
 ?>

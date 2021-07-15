@@ -6,8 +6,8 @@
 </head>
 <body>
 	<div class="container">
-<table>
-	<thead>
+<table border="1px">
+	<thead style="background-color: yellow;">
 		<th>First Name</th>
 		<th>Last Name</th>
 		<th>Email</th>
@@ -18,16 +18,15 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$db = "userLogin";
+$db = "userlogin";
 $con = mysqli_connect($host, $user, $password, $db);
 if (!$con) {
 	echo "DB Connection is faild!!!".mysqli_connect_error();
 }
 
 	echo "Database connection Success<br><br>";
-$sql = "SELECT * FROM detail";
+$sql = "SELECT * FROM details";
 $data = $con->query($sql);
-
 if ($data->num_rows >0) {
 	while($row = $data->fetch_assoc())
 	{
@@ -44,6 +43,7 @@ if ($data->num_rows >0) {
          }
 		?>
 </tbody>
-</table></div>
+</table>
+</div>
 </body>
 </html>

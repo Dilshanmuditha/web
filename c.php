@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $password = "";
-$db = "userLogin";
+$db = "userlogin";
 
 $con = mysqli_connect($host, $user, $password, $db);
 if (!$con) {
@@ -14,9 +14,9 @@ if (isset($_POST['add'])) {
 	$Fname = $_POST['Fname'];
 	$Lname = $_POST['Lname'];
 	$Email = $_POST['Email'];
-	$Pass = $_POST['password'];
+	$Pass = $_POST['Password'];
 
-$sql = "INSERT INTO detail (Fname, Lname,Email, Password)
+$sql = "INSERT INTO details (Fname, Lname,Email, Password)
 VALUE ('$Fname','$Lname','$Email','$Pass')
 ";
 if ($con->query($sql) === true) {
