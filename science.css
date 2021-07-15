@@ -1,8 +1,27 @@
-/*
-Set up and base styles and root level intrinsic typography.
-This allows scaling to very small sizes.
-https://docs.typetura.com/
-*/
+ul{ list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #202020;
+}
+li{
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: white;
+  color: #202020;
+}
+.active{
+  background-color:#fa2069;
+
+}
 
 :root {
   --tt-key: root;
