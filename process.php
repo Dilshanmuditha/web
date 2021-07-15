@@ -1,29 +1,32 @@
 <?php
-
-$host = "localhost";
-$user = "root";
-$password = "";
-$db = "userlogin";
-
-$con = mysqli_connect($host, $user, $password, $db);
+if ($_POST) {
+	$host = "localhost";
+    $user = "root";
+    $password = "";
+    $db = "userlogin";
 
 $Email = $_POST['Email'];
-$password= $_POST['password'];
+$Password =$_POST['Password'];
 
-
-$Email = stripcslashes($Email);
-$password = stripcslashes($password);
-$Email = mysql_real_escape_string($Email);
-$password = mysql_real_escape_string($password);
-
-$result = mysql_query("select * from details where Email = '$Email' password = '$password'")
-               or die("Failed to query database " .mysql_error());
-$row = mysql_fetch_array($result);
-if ($row['Email'] == $Email && $row['password'] == $password){
-	echo "Login success!! welcome" .$row['Email'];
+$conn = mysqli_connect($host, $user, $password, $db);
+$query= "SELECT * from details where Email='$Email' and Password='$Password'";
+$result=mysqli_query($conn,$query);
+if (mysqli_num_rows($result)==1) {
+	session_start();
+    $_SESSION['userlogin']='true';
+    echo "<script>
+alert('Sign in Successfull!!!');
+window.location.href='text.html';
+</script>";
 }
-else{
-	echo "Failed to login!!";
+else {
+	echo "<script>
+alert('Sign in Faild!!! Please Retry');
+window.location.href='signin.html';
+
+</script>";
 }
-$con->close();
+}
+
 ?>
+
