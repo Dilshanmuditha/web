@@ -263,37 +263,6 @@ figcaption,
     margin-right: -8rem;
   }
 }
-<<<<<<< HEAD
-/* Layout styles */
-=======
-
-
-
-@font-face {
-  font-family: "Sole Sans";
-  src: url("https://assets.codepen.io/467/SoleSansVF_W.woff2")
-    format("woff2-variations");
-  font-weight: 100 900;
-}
-
-
-
-@font-face {
-  font-family: "Roslindale";
-  src: url("https://assets.codepen.io/467/RoslindaleVariable-VF.woff2")
-    format("woff2-variations");
-  font-weight: 200 900;
-}
-@font-face {
-  font-family: "Job Clarendon";
-  src: url("https://assets.codepen.io/467/JobClarendonVariable-VF.woff2")
-    format("woff2-variations");
-  font-weight: 100 900;
-}
-
-
-
->>>>>>> d47a09e9b4da12914149bba274ff2b5eb074ac57
 
 body {
   margin: 0;
