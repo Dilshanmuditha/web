@@ -111,6 +111,7 @@ ul{ list-style-type: none;
 	  --tt-max: 1300;
 	  --tt-ease: ease-out;
 	}
+  }
   @keyframes float-left {
 	80% {
 	  margin-left: 0;
@@ -253,9 +254,3 @@ ul{ list-style-type: none;
 	margin: 0 auto;
 	padding: 1em 2rem;
   }
-  
-  
-  
-
-  
- 
