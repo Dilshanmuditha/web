@@ -424,28 +424,6 @@ footer small {
   color: var(--color);
 }
 
-.primary-headline:hover:after {
-  content: 'Inspect style';
-  position: absolute;
-  font-family: var(--font-text);
-  font-size: 0.7rem;
-  border-radius: 6rem;
-  background: #fff;
-  border: 1px solid var(--color);
-  color: hsl(0, 0%, 15%);
-  padding: 0.3rem 0.4rem;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  font-variation-settings: 'wdth' 90;
-}
-@supports (backdrop-filter: blur(1rem)) {
-  .primary-headline:hover:after {
-    background: #ffffff77;
-    backdrop-filter: blur(1rem)
-  }
-}
-
 .tt-configuration,
 .tt-configuration * {
   font-family: var(--font-text);
