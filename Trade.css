@@ -51,21 +51,18 @@ li a:hover:not(.active){
 
 @keyframes root {
   0% {
-    /* Yes, the font size is 0, but so is the viewport width.
+    
+    font-size: 0%;* Yes, the font size is 0, but so is the viewport width.
        This scales to a value over 16px rapidly. */
-    font-size: 0%;
-    /* Unitless line height can be used with this method. */
+    
     line-height: 1.15;
-    /* Variable fonts can also be adjusted with this method.
-       This gives you way more control over your typography. */
+   
     font-weight: 400;
     font-variation-settings: 'wdth' 115;
   }
 
   100% {
-    /* Here we have a value equivilent to 18px at a default base of 16px.
-       Note that user base font sizes can be inherited here,
-       this improves accessibility over viewport unit based font scaling. */
+   
     font-size: 112.5%;
     line-height: 1.45;
     font-weight: 350;
@@ -74,7 +71,7 @@ li a:hover:not(.active){
 }
 
 
-/* Other typographic styles */
+
 
 .primary-headline {
   --tt-key: primary-headline;
@@ -153,7 +150,6 @@ li a:hover:not(.active){
   }
 }
 
-/* Because our root styles scale to the viewport, relative units will inherit that flexibility. */
 
 .label {
   font-family: var(--font-text);
@@ -225,7 +221,6 @@ figcaption,
 }
 
 
-/* This technique doesn’t need to be limited to typogrphy. You can also interpolate any animatable element style. */
 
 @media (min-width: 35em) {
   .float-left {
@@ -268,7 +263,37 @@ figcaption,
     margin-right: -8rem;
   }
 }
+<<<<<<< HEAD
 /* Layout styles */
+=======
+
+
+
+@font-face {
+  font-family: "Sole Sans";
+  src: url("https://assets.codepen.io/467/SoleSansVF_W.woff2")
+    format("woff2-variations");
+  font-weight: 100 900;
+}
+
+
+
+@font-face {
+  font-family: "Roslindale";
+  src: url("https://assets.codepen.io/467/RoslindaleVariable-VF.woff2")
+    format("woff2-variations");
+  font-weight: 200 900;
+}
+@font-face {
+  font-family: "Job Clarendon";
+  src: url("https://assets.codepen.io/467/JobClarendonVariable-VF.woff2")
+    format("woff2-variations");
+  font-weight: 100 900;
+}
+
+
+
+>>>>>>> d47a09e9b4da12914149bba274ff2b5eb074ac57
 
 body {
   margin: 0;
