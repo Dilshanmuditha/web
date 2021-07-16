@@ -22,7 +22,7 @@ VALUE ('$Fname','$Lname','$Email','$Pass')
 if ($con->query($sql) === true) {
 	echo "<script>
 alert('Sign up Successfull!!');
-window.location.href='text.html';
+window.location.href='signin.html';
 </script>";
 }
 else{
