@@ -415,14 +415,7 @@ footer small {
   margin: 0 auto;
   padding: 1em 2rem;
 }
-.primary-headline {
-  position: relative;
-  cursor: pointer;
-}
 
-.primary-headline:hover {
-  color: var(--color);
-}
 
 .tt-configuration,
 .tt-configuration * {
