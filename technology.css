@@ -134,7 +134,7 @@ li a:hover:not(.active){
   display: block;
   height: 1rem;
   margin: 2rem 0 3rem;
-  background: url("https://assets.codepen.io/467/plane.svg"),
+  
     linear-gradient(hsl(0, 0%, 94%), hsl(0, 0%, 94%));
   background-repeat: no-repeat, repeat-x;
   background-size: contain, 2px 2px;
@@ -288,7 +288,7 @@ license it here: http://solesans.c-a-s-t.com/
 
 @font-face {
   font-family: "Sole Sans";
-  src: url("https://assets.codepen.io/467/SoleSansVF_W.woff2")
+  
     format("woff2-variations");
   font-weight: 100 900;
 }
