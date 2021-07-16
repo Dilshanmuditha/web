@@ -22,7 +22,6 @@ ul{ list-style-type: none;
 	background-color:#fa2069;
   
   }
-  /* Other typographic styles */
   .primary-headline {
 	--tt-key: primary-headline;
 	--tt-ease: cubic-bezier(0.85, 0, 0.5, 1);
@@ -130,7 +129,7 @@ ul{ list-style-type: none;
 	  margin-right: -8rem;
 	}
   } 
-  /* Layout styles */ 
+
   body {
 	margin: 0;
 	padding: 0;
