@@ -49,29 +49,6 @@ li a:hover:not(.active){
 
 
 
-@keyframes root {
-  0% {
-    /* Yes, the font size is 0, but so is the viewport width.
-       This scales to a value over 16px rapidly. */
-    font-size: 0%;
-    /* Unitless line height can be used with this method. */
-    line-height: 1.15;
-    /* Variable fonts can also be adjusted with this method.
-       This gives you way more control over your typography. */
-    font-weight: 400;
-    font-variation-settings: 'wdth' 115;
-  }
-
-  100% {
-    /* Here we have a value equivilent to 18px at a default base of 16px.
-       Note that user base font sizes can be inherited here,
-       this improves accessibility over viewport unit based font scaling. */
-    font-size: 112.5%;
-    line-height: 1.45;
-    font-weight: 350;
-    font-variation-settings: 'wdth' 105;
-  }
-}
 
 
 /* Other typographic styles */
@@ -300,13 +277,13 @@ license them here: https://djr.com/font-of-the-month-club
 
 @font-face {
   font-family: "Roslindale";
-  src: url("https://assets.codepen.io/467/RoslindaleVariable-VF.woff2")
+  
     format("woff2-variations");
   font-weight: 200 900;
 }
 @font-face {
   font-family: "Job Clarendon";
-  src: url("https://assets.codepen.io/467/JobClarendonVariable-VF.woff2")
+  
     format("woff2-variations");
   font-weight: 100 900;
 }
