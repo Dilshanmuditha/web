@@ -162,41 +162,6 @@ li a:hover:not(.active){
   font-variation-settings: 'wdth' 125;
 }
 
-.byline::before {
-  content: "";
-  width: 3rem;
-  height: 2px;
-  background: var(--color);
-  position: absolute;
-  top: 0;
-}
-
-.byline {
-  font-family: var(--font-text);
-  text-transform: uppercase;
-  font-size: 0.7rem;
-  font-weight: 350;
-  letter-spacing: 0.1em;
-  padding-top: 0.7rem;
-  position: relative;
-  margin: 1rem 0 0;
-  line-height: 1;
-  font-variation-settings: 'wdth' 100;
-}
-
-.dateline {
-  font-family: var(--font-text);
-  text-transform: uppercase;
-  font-size: 0.5rem;
-  font-weight: 300;
-  letter-spacing: 0.1em;
-  opacity: 0.67;
-  padding-top: 0.7rem;
-  position: relative;
-  margin: 0 0 2rem;
-  line-height: 1;
-  font-variation-settings: 'wdth' 90;
-}
 
 figcaption,
 .caption {
@@ -597,4 +562,7 @@ footer small {
   font-weight: 400;
   opacity: 0.5;
   text-align: center;
+}
+.url {
+color: red;
 }
