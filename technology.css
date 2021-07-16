@@ -300,13 +300,13 @@ license them here: https://djr.com/font-of-the-month-club
 
 @font-face {
   font-family: "Roslindale";
-  src: url("https://assets.codepen.io/467/RoslindaleVariable-VF.woff2")
+  
     format("woff2-variations");
   font-weight: 200 900;
 }
 @font-face {
   font-family: "Job Clarendon";
-  src: url("https://assets.codepen.io/467/JobClarendonVariable-VF.woff2")
+  
     format("woff2-variations");
   font-weight: 100 900;
 }
