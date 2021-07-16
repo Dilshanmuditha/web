@@ -343,25 +343,7 @@ figure {
   padding: 0;
 }
 
-.nextclicks {
-  margin: 3rem auto 0;
-  width: calc(100% - 4rem);
-  max-width: 1200px;
-}
-.nextclicks img {
-  height: calc(0.67px * var(--tt-bind));
-  object-fit: cover;
-}
-article + .nextclicks {
-  margin-top: 10vh;
-}
-@media (min-width: 40em) {
-  .nextclicks {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 2em;
-  }
+
   .section-label:before,
   .section-label:after {
     content: "    ";
