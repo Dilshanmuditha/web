@@ -343,6 +343,10 @@ figure {
   padding: 0;
 }
 
+.nextclick-article {
+  display: block;
+  text-align: center;
+}
 
   .section-label:before,
   .section-label:after {
