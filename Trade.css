@@ -53,7 +53,6 @@ li a:hover:not(.active){
   0% {
     
     font-size: 0%;* Yes, the font size is 0, but so is the viewport width.
-       This scales to a value over 16px rapidly. */
     
     line-height: 1.15;
    
